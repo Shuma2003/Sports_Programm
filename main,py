@@ -1,0 +1,44 @@
+efficiency = int(input("Enter your efficiency: "))
+duration = int(input("Enter your duration of training: "))
+trainer_name = input("Enter your name: ")
+speed = int(input("Enter your speed: "))
+
+def efficiencyAround(efficiency):
+  if efficiency < 500:
+    print("Swim more")
+  elif efficiency > 1000:
+    print("Well done")
+  else:
+    print("Keep it up")
+efficiencyAround(efficiency)
+
+
+def durationHour(duration):
+  if duration < 30: 
+    print("Train more")
+  elif duration > 55: 
+    print ("Very well")
+  else: 
+    print("Keep it up")
+durationHour(duration)
+
+
+def Myname(trainer_name):
+    if trainer_name == "Uliana":
+      print("Your name is Uliana ")
+    elif trainer_name != "Uliana":
+      print("Your name is not Uliana")
+    else:
+      print("Error!")
+Myname(trainer_name)
+
+
+
+def speedArounds(speed):
+  if speed < 631:
+    print("Swimming!")
+  elif speed > 631:
+    print("Well done!")
+  else:
+    print("Keep it up!")
+    speedArounds(speed)
